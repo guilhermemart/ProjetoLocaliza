@@ -26,7 +26,6 @@ if __name__ == '__main__':
     pd.set_option( 'max_colwidth', 1000)  # colunas mais largas para nao truncar os links
     dic = {'Grupos': classes_list[:5],'Links_Img': link_list} #cria um dicionario python
     data = pd.DataFrame(data=dic, dtype=str)  # (columns=classes_list[:5])
-    print(dic)
     print(data)
 
 
